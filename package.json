@@ -1,0 +1,22 @@
+{
+  "name": "vitest-monorepo",
+  "version": "1.0.0",
+  "description": "vitest workspace in monorepo example",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --ui"
+  },
+  "keywords": [
+    "vitest",
+    "workspace",
+    "monorepo"
+  ],
+  "author": "Jordy Kuhne",
+  "license": "MIT",
+  "dependencies": {
+    "vitest": "^0.31.2"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^0.31.2"
+  }
+}
